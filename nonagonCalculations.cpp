@@ -6,8 +6,6 @@
 // And display the result to the user.
 
 #include <iostream>
-#include <iomanip>
-#include <numbers>
 #include <cmath>
 
 
@@ -45,8 +43,7 @@ int main() {
 
     std::cout <<
     "The perimeter of the Nonagon is "
-    << std::setprecision(2)
-    << std::setfill('0')
+
     << perimeter
     << "cm\n";
 
